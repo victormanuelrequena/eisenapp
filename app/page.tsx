@@ -21,7 +21,6 @@ interface Task {
 export default function Home() {
   const [allTasks, setAllTasks] = useState<Task[]>([]);
 
-  // Cargar todas las tareas desde localStorage
   useEffect(() => {
     const taskTypes = ["DO", "SCHEDULE", "DELEGATE", "DELETE"];
     const loadedTasks: Task[] = [];
