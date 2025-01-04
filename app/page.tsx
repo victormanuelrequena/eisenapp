@@ -15,7 +15,7 @@ import {
 interface Task {
   id: number;
   text: string;
-  type: string; // Identifica el tipo de tarea: DO, SCHEDULE, DELEGATE, DELETE
+  type: string;
 }
 
 export default function Home() {
