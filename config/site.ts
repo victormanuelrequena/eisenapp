@@ -5,7 +5,7 @@ export const siteConfig = {
   navItems: [
     {
       label: "",
-      href: "/",
+      href: "",
     },
   ],
   navMenuItems: [
